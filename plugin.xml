@@ -32,7 +32,7 @@
         
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <meta-data android:name="com.urbanairship.autopilot" android:value="com.urbanairship.cordova.CordovaAutopilot" />
-
+            <uses-sdk tools:overrideLibrary="com.urbanairship"/>
             <receiver android:name="com.urbanairship.cordova.CordovaAirshipReceiver"
                         android:exported="false">
 
